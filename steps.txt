@@ -1,2 +1,7 @@
 1. set up the cards set up (initially only search bar)
 2. on search, fetch guy, clear search
+
+#1 html, basic css setup
+#2 api generate 
+#3 search function
+#4 if not found, error tupe in a valid username card
