@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script type="module">
+        import { Octokit } from "https://esm.sh/@octokit/core";
+    </script>
     <title>Profile Cards</title>
 </head>
 <body>
+    
     <h1>Get Github Profile Cards!</h1>
     <input class="search" id="search" placeholder="Search for a profile"="text">
     <div class="card inactive">
@@ -20,14 +24,10 @@
             <div class="tag">Whatsapp</div>
             <div class="tag">Facebook</div>
         </div>
-
-
-
-
-
-
     </div>
     <script src="script.js"></script>
+ 
+    
     
 </body>
 </html>
