@@ -1,0 +1,2 @@
+1. set up the cards set up (initially only search bar)
+2. on search, fetch guy, clear search
