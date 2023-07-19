@@ -3,7 +3,7 @@
 
 
 import {Octokit} from "https://esm.sh/@octokit/rest";
-const octokit = new Octokit({auth: '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'})
+const octokit = new Octokit({auth: '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'})
 //register response
 //test users
 const response = await octokit.request('GET /users', {
@@ -63,7 +63,8 @@ function getUser(name){
          for(let i = 0; true; i++){
           if(i==5) {break;}
           let b = document.createElement("div")
-          b.classList.add("tags.tag")
+          b.classList.add("tags")
+          b.classList.add("tag")
           b.innerText = json2[i]["name"]
           console.log(json2[i]["name"])
           div.appendChild(b)

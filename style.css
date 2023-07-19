@@ -38,11 +38,13 @@ h1 {
     padding-left: 30px;
     background-color: rgb(127, 214, 255);
     width: 80%;
-    height: 200px;
+    height: auto;
     margin: auto;
     border-radius: 10px;
     padding-bottom: 10px;
     text-align: center;
+    padding-top: 10px;
+
 
 }
 
@@ -68,7 +70,8 @@ img {
 }
 
 .numbers {
-    display: inline;
+    display: inline-flex;
+    flex-wrap: wrap;
     margin: 10px;
     font-weight: 400;
 }
@@ -76,10 +79,18 @@ img {
 .tags{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .tag{
     margin: 10px;
+    background-color: rgb(39, 39, 39);
+    padding: 5px;
+}
+
+.tag:hover{
+    background-color: black;
 }
