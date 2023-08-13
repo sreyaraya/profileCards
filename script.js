@@ -2,7 +2,7 @@
 //imports
 
 
-import {Octokit} from "https://esm.sh/@octokit/rest";
+/*import {Octokit} from "https://esm.sh/@octokit/rest";
 const octokit = new Octokit({auth: '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'})
 //register response
 //test users
@@ -10,7 +10,7 @@ const response = await octokit.request('GET /users', {
   headers: {
     'X-GitHub-Api-Version': '2022-11-28'
   }
-})
+})*/
 
 
 //get the response when enter
